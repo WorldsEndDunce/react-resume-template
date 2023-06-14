@@ -352,7 +352,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Contact me',
-  description: 'Info:',
+  description: 'Feel free to send me a message regarding any business inquiries. Here are some ways to reach me:',
   items: [
     {
       type: ContactType.Email,
