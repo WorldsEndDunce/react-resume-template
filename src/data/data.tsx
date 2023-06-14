@@ -12,7 +12,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import SteamIcon from '../components/Icon/SteamIcon';
 // import heroImage from '../images/header-background.webp';
 import heroImage from '../images/cyberpunk.webp';
-import porfolioImage4 from '../images/portfolio/annies.png';
+import porfolioImage4 from '../images/portfolio/annies.PNG';
 import porfolioImage9 from '../images/portfolio/cherry-blossoms.png';
 import porfolioImage6 from '../images/portfolio/gt.png';
 import porfolioImage2 from '../images/portfolio/hand-gesture.png';
