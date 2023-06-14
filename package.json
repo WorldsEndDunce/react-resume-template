@@ -9,7 +9,8 @@
     "dev": "yarn compile && yarn next dev",
     "lint": "yarn run -T prettier --write './src/**/*.{js,jsx,json,ts,tsx}' && eslint './src/**/*.{js,jsx,ts,tsx}' --fix --max-warnings=0",
     "start": "yarn next start",
-    "sitemap": "yarn next-sitemap"
+    "sitemap": "yarn next-sitemap",
+    "lint:fix": "eslint --fix src"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
@@ -44,6 +45,7 @@
     "eslint-plugin-react-memo": "^0.0.3",
     "eslint-plugin-react-native": "^4.0.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "postcss": "^8.4.23",
     "postcss-preset-env": "^8.3.2",

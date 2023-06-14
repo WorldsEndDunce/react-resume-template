@@ -6,22 +6,22 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
+import DiscordIcon from '../components/Icon/DiscordIcon';
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import DiscordIcon from '../components/Icon/DiscordIcon';
 import SteamIcon from '../components/Icon/SteamIcon';
 // import heroImage from '../images/header-background.webp';
 import heroImage from '../images/cyberpunk.webp';
-import porfolioImage1 from '../images/portfolio/kittychat.png';
-import porfolioImage2 from '../images/portfolio/hand-gesture.png';
-import porfolioImage3 from '../images/portfolio/mariokart.png';
 import porfolioImage4 from '../images/portfolio/annies.png';
-import porfolioImage5 from '../images/portfolio/png.png';
-import porfolioImage6 from '../images/portfolio/gt.png';
-import porfolioImage7 from '../images/portfolio/zoo.png';
-import porfolioImage8 from '../images/portfolio/quozlett.png';
 import porfolioImage9 from '../images/portfolio/cherry-blossoms.png';
+import porfolioImage6 from '../images/portfolio/gt.png';
+import porfolioImage2 from '../images/portfolio/hand-gesture.png';
+import porfolioImage1 from '../images/portfolio/kittychat.png';
+import porfolioImage3 from '../images/portfolio/mariokart.png';
+import porfolioImage5 from '../images/portfolio/png.png';
+import porfolioImage8 from '../images/portfolio/quozlett.png';
 import porfolioImage10 from '../images/portfolio/watts-up.png';
+import porfolioImage7 from '../images/portfolio/zoo.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/the_city.png';
 import {
@@ -276,7 +276,7 @@ export const education: TimelineItem[] = [
           Stanford Taekwondo.
         </p>
       </>
-    ), },
+    ),},
   {
     date: 'Fall 2017 - Spring 2021',
     location: 'Wichita, KS',
