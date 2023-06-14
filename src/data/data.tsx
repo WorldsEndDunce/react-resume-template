@@ -2,31 +2,28 @@ import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
   BuildingOffice2Icon,
-  CalendarIcon,
-  FlagIcon,
   MapIcon,
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import DiscordIcon from '../components/Icon/DiscordIcon';
+import SteamIcon from '../components/Icon/SteamIcon';
+// import heroImage from '../images/header-background.webp';
+import heroImage from '../images/cyberpunk.webp';
+import porfolioImage1 from '../images/portfolio/kittychat.png';
+import porfolioImage2 from '../images/portfolio/hand-gesture.png';
+import porfolioImage3 from '../images/portfolio/mariokart.png';
+import porfolioImage4 from '../images/portfolio/annies.png';
+import porfolioImage5 from '../images/portfolio/png.png';
+import porfolioImage6 from '../images/portfolio/gt.png';
+import porfolioImage7 from '../images/portfolio/zoo.png';
+import porfolioImage8 from '../images/portfolio/quozlett.png';
+import porfolioImage9 from '../images/portfolio/cherry-blossoms.png';
+import porfolioImage10 from '../images/portfolio/watts-up.png';
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.webp';
+import testimonialImage from '../images/the_city.png';
 import {
   About,
   ContactSection,
@@ -69,24 +66,22 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `Hello, I'm Allison.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a student at <strong className="text-stone-100">Stanford University</strong> studying math, music, and computer science. I have experience in neurocomputation
+        and AI/ML projects.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, I like playing the <strong className="text-stone-100">piano</strong>,{' '}
+         <strong className="text-stone-100">video gaming</strong>, and <strong className="text-stone-100">exercising</strong>.
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: 'https://drive.google.com/file/d/1_qamR_3qc11iAQqpc-9O5MeL-6if7oW1/view?usp=sharing',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -104,16 +99,15 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Hello! I'm Allison, a double major in math and music with a coterm masters in computer science at Stanford University. Some fields I’m interested in are neuroscience, biomedical engineering, and machine learning.
+ I like "learning for learning's sake". I’m also a FLI student originally from the Midwest, so I would say I’ve had a pretty unique college experience. `,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'San Francisco Bay Area, CA', Icon: MapIcon},
+//     {label: 'Age', text: '29', Icon: CalendarIcon},
+//     {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
+    {label: 'Study', text: 'Stanford University', Icon: AcademicCapIcon},
+        {label: 'Currently doing', text: 'NASA L\'SPACE, biocomputation research', Icon: BuildingOffice2Icon},
+    {label: 'Interests', text: 'Piano, Drinking Coffee, Martial Arts, Video Games, Anime', Icon: SparklesIcon},
   ],
 };
 
@@ -172,23 +166,23 @@ export const skills: SkillGroup[] = [
       },
     ],
   },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
-      },
-    ],
-  },
+//   {
+//     name: 'Mobile development',
+//     skills: [
+//       {
+//         name: 'React Native',
+//         level: 9,
+//       },
+//       {
+//         name: 'Flutter',
+//         level: 4,
+//       },
+//       {
+//         name: 'Swift',
+//         level: 3,
+//       },
+//     ],
+//  },
 ];
 
 /**
@@ -196,71 +190,71 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Kitty Chat',
+    description: 'Web app to make language conversation practice more accessible, featuring ChatGPT-powered talking cat baristas.',
+    url: 'https://devpost.com/software/kittychat-catgpt-for-language-learning',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'ML Palm Reader',
+    description: 'Built a bidirectional RNN + Transformer model to classify over a dozen hand gestures. Over 90% accuracy!',
+    url: 'https://github.com/WorldsEndDunce/Palm-Reader/tree/master',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Mario Kart AI',
+    description: 'Convolutional neural network (CNN) trained to race around Luigi Circuit in Mario Kart Wii.',
+    url: 'https://github.com/WorldsEndDunce/MKWii-CNN',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Annie\'s Kitchen Website',
+    description: 'Webpage for Annie\'s Kitchen, a homemade food business specializing in Malaysian-Chinese cuisine.',
+    url: 'https://annies-kitchen.github.io/',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Do Neural Networks Dream of an Efficient PNG Search Algorithm?',
+    description: 'Application of the Neyman-Scott point process model to identify memory-storing polychronous neuronal groups (PNGs).',
+    url: 'https://github.com/WorldsEndDunce/PP-Almost-Seq',
     image: porfolioImage5,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Neural Ensemble for 3D Reconstruction from 2D Images',
+    description: 'Developed a ML ensemble model to build 3D reconstructions of landmarks and other scenes from datasets of images.',
+    url: '#',
     image: porfolioImage6,
   },
   {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Zoo of Distributions',
+    description: 'A generative art website that uses interactive demos to teach basic probability distributions. Stanford Probability Challenge Winner.',
+    url: 'https://zoo-of-distributions.github.io/',
     image: porfolioImage7,
   },
   {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Quozlett Lite',
+    description: 'Stylishly animated flashcard app with multiple choice options.',
+    url: 'https://github.com/WorldsEndDunce/Quozlett-Lite',
     image: porfolioImage8,
   },
   {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'DALLE or Dali?',
+    description: 'Short quiz to see if you can tell the difference between AI and human-made art.',
+    url: 'https://dalle-or-dali.github.io/',
     image: porfolioImage9,
   },
   {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Watt\'s Up? (power lines)',
+    description: 'Led the Wichita Collegiate robotics team for the 2019 season. The task was to design and build a robot to succeed in repairing power lines and cleaning up debris on a game field simulating a post-natural disaster situation.',
+    url: 'https://docs.google.com/document/d/1xM8CXxxQqMyq4cRdJgjhIZt7fiYqd4VER3ynmn-LDfY/edit?usp=sharing',
     image: porfolioImage10,
   },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage11,
-  },
+//   {
+//     title: 'Project title 11',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://timbaker.me',
+//     image: porfolioImage11,
+//   },
 ];
 
 /**
@@ -268,39 +262,61 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
+    date: 'September 2021 - June 2025',
+    location: 'Stanford, CA',
+    title:  'Stanford University',
+    content: (
+      <>
+        <p>
+          Double major in Math and Music (BAS) and coterm MS in Computer Science; <b>3.95 GPA</b>
+        </p>
+        <p>
+          <b>Activities:</b> Piano, TreeHacks, Stanford University Mathematical Organization (SUMO),
+          Stanford Summer Engineering Academy (SSEA), Association for Computing Machinery (ACM), CodePath,
+          Stanford Taekwondo.
+        </p>
+      </>
+    ), },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'Fall 2017 - Spring 2021',
+    location: 'Wichita, KS',
+    title: 'Wichita Collegiate School',
+    content: <p>Valedictorian; 99.35/100 UW GPA</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'June 2023 - Present',
+    location: 'Blue Marble Space Institute of Science (BMSIS)',
+    title: 'Research Associate',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Researcher at BMSIS YSP developing a tool to analyze deep sequencing data with <b>Python</b> and <b>Bash</b>.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'May 2023 - Present',
+    location: 'NASA',
+    title: 'L’SPACE Project Manager and Researcher',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+      Project manager of a student team designing a mission to explore the dwarf planet Ceres for the NASA L’SPACE MCA.
+        Direct team research efforts while also studying computational techniques for space exploration.
+      </p>
+    ),
+  },
+  {
+    date: 'March 2022 - March 2023',
+    location: 'Stanford Brains in Silicon Lab',
+    title: 'CS Research Intern',
+    content: (
+      <p>
+       Worked in a team to use machine learning methods via <b>Python</b> libraries like PyTorch to analyze neural data.
+        Primary developer for project where I ran <b>Python</b> and <b>Julia</b> simulations of neural networks and wrote an
+    improved algorithm to find sequences (representing memories) in the brain.
+    Presented my findings at the CURIS poster session, one of the largest undergraduate research events at Stanford.
       </p>
     ),
   },
@@ -312,19 +328,19 @@ export const experience: TimelineItem[] = [
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
+//     {
+//       name: 'Dishwison',
+//       text: 'Allison is the best boss ever!',
+//       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+//     },
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Brian Lee (Stanford \'25)',
+      text: 'Allison is always a pleasure to work with. I enjoy their enthusiasm and sense of humor.',
+      image: 'https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/rockcms/2022-10/221026-Emperor-Penguins-al-0511-7d537f.jpg',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      name: 'TBD',
+      text: '[Testimonial to be added]',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
@@ -335,28 +351,28 @@ export const testimonial: TestimonialSection = {
  */
 
 export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  headerText: 'Contact me:',
+//   description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'ateecup@stanford.edu',
+      href: 'mailto:ateecup@stanford.edu',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Stanford, CA',
+      href: 'https://goo.gl/maps/g5KaXtEf2pPWwenn8',
     },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
-    },
+//     {
+//       type: ContactType.Instagram,
+//       text: '@tbakerx',
+//       href: 'https://www.instagram.com/tbakerx/',
+//     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'WorldsEndDunce',
+      href: 'https://github.com/WorldsEndDunce',
     },
   ],
 };
@@ -365,9 +381,11 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/WorldsEndDunce'},
+//   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ateecup/'},
+    {label: 'Discord', Icon: DiscordIcon, href: 'https://www.discordapp.com/users/453289711134310411'},
+    {label: 'Steam', Icon: SteamIcon, href: 'https://steamcommunity.com/id/arihitokataki/'},
+//   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
+//   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];

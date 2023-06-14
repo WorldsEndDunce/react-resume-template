@@ -49,6 +49,9 @@ const Hero: FC = memo(() => {
             href={`/#${SectionId.About}`}>
             <ChevronDownIcon className="h-5 w-5 bg-transparent sm:h-6 sm:w-6" />
           </a>
+             <div className="absolute bottom-1 right-5 text-white text-opacity-50">
+              Background Credit: Gal Barkan Art
+            </div>
         </div>
       </div>
     </Section>

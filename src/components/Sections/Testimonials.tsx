@@ -90,6 +90,9 @@ const Testimonials: FC = memo(() => {
                   <Testimonial isActive={isActive} key={`${testimonial.name}-${index}`} testimonial={testimonial} />
                 );
               })}
+                <div className="absolute bottom-2 right-2 text-white text-opacity-50">
+              Testimonials Background Credit: DerVert
+            </div>
             </div>
             <div className="flex gap-x-4">
               {[...Array(testimonials.length)].map((_, index) => {

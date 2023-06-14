@@ -54,6 +54,7 @@ const DesktopNav: FC<{navSections: SectionId[]; currentSection: SectionId | null
   },
 );
 
+
 const MobileNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}> = memo(
   ({navSections, currentSection}) => {
     const [isOpen, setIsOpen] = useState<boolean>(false);
