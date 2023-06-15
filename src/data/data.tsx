@@ -22,6 +22,7 @@ import porfolioImage5 from '../images/portfolio/png.png';
 import porfolioImage8 from '../images/portfolio/quozlett.png';
 import porfolioImage10 from '../images/portfolio/watts-up.png';
 import porfolioImage7 from '../images/portfolio/zoo.png';
+import porfolioImage11 from '../images/portfolio/portfolio.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/the_city.png';
 import {
@@ -244,17 +245,17 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage9,
   },
   {
+    title: 'This website',
+    description: 'My personal website, complete with resume and a portfolio gallery.',
+    url: 'https://www.allisonxtee.com',
+    image: porfolioImage11,
+  },
+   {
     title: 'Watt\'s Up? (power lines)',
     description: 'Led the Wichita Collegiate robotics team for the 2019 season. The task was to design and build a robot to succeed in repairing power lines and cleaning up debris on a game field simulating a post-natural disaster situation.',
     url: 'https://docs.google.com/document/d/1xM8CXxxQqMyq4cRdJgjhIZt7fiYqd4VER3ynmn-LDfY/edit?usp=sharing',
     image: porfolioImage10,
   },
-//   {
-//     title: 'Project title 11',
-//     description: 'Give a short description of your project here.',
-//     url: 'https://timbaker.me',
-//     image: porfolioImage11,
-//   },
 ];
 
 /**
