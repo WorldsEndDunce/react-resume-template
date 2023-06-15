@@ -190,7 +190,7 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Kitty Chat',
+    title: 'KittyChat',
     description: 'Web app to make language conversation practice more accessible, featuring ChatGPT-powered talking cat baristas.',
     url: 'https://devpost.com/software/kittychat-catgpt-for-language-learning',
     image: porfolioImage1,
@@ -222,7 +222,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Neural Ensemble for 3D Reconstruction from 2D Images',
     description: 'Developed a ML ensemble model to build 3D reconstructions of landmarks and other scenes from datasets of images.',
-    url: '#',
+    url: 'https://drive.google.com/file/d/18yJ009XMczWwbtOIcBSr6Fe_SHPfNoCO/view?usp=sharing',
     image: porfolioImage6,
   },
   {
