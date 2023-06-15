@@ -19,10 +19,10 @@ import porfolioImage2 from '../images/portfolio/hand-gesture.png';
 import porfolioImage1 from '../images/portfolio/kittychat.png';
 import porfolioImage3 from '../images/portfolio/mariokart.png';
 import porfolioImage5 from '../images/portfolio/png.png';
+import porfolioImage11 from '../images/portfolio/portfolio.png';
 import porfolioImage8 from '../images/portfolio/quozlett.png';
 import porfolioImage10 from '../images/portfolio/watts-up.png';
 import porfolioImage7 from '../images/portfolio/zoo.png';
-import porfolioImage11 from '../images/portfolio/portfolio.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/the_city.png';
 import {
