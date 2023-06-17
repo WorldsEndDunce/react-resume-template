@@ -340,9 +340,9 @@ export const testimonial: TestimonialSection = {
       image: 'https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/rockcms/2022-10/221026-Emperor-Penguins-al-0511-7d537f.jpg',
     },
     {
-      name: 'TBD',
-      text: '[Testimonial to be added]',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'KL (long-time classmate and CS student)',
+      text: 'Over 100,000 lines of code in fine printing!',
+      image: 'https://i.imgur.com/riEo7Ir.jpg',
     },
   ],
 };
