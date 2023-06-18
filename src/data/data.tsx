@@ -82,7 +82,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://drive.google.com/file/d/1_qamR_3qc11iAQqpc-9O5MeL-6if7oW1/view?usp=sharing',
+      href: 'https://drive.google.com/file/d/1X9_VRuh79TZC0KdnIuDuyjSkwmbxLoU7/view?usp=sharing',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -263,7 +263,7 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'September 2021 - June 2025',
+    date: 'Sep 2021 - June 2025',
     location: 'Stanford, CA',
     title:  'Stanford University',
     content: (
