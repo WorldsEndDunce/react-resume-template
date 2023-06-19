@@ -289,8 +289,8 @@ export const education: TimelineItem[] = [
 export const experience: TimelineItem[] = [
   {
     date: 'June 2023 - Present',
-    location: 'Blue Marble Space Institute of Science (BMSIS)',
-    title: 'Research Associate',
+    location: 'Research Associate',
+    title: 'Blue Marble Space Institute of Science (BMSIS)',
     content: (
       <p>
         Researcher at BMSIS YSP developing a tool to analyze deep sequencing data with <b>Python</b> and <b>Bash</b>.
@@ -299,8 +299,8 @@ export const experience: TimelineItem[] = [
   },
   {
     date: 'May 2023 - Present',
-    location: 'NASA',
-    title: 'L’SPACE Project Manager and Researcher',
+    location: 'L’SPACE Project Manager and Researcher',
+    title: 'NASA',
     content: (
       <p>
       Project manager of a student team designing a mission to explore the dwarf planet Ceres for the NASA L’SPACE MCA.
@@ -310,8 +310,8 @@ export const experience: TimelineItem[] = [
   },
   {
     date: 'March 2022 - March 2023',
-    location: 'Stanford Brains in Silicon Lab',
-    title: 'CS Research Intern',
+    location: 'CS Research Intern',
+    title: 'Stanford Brains in Silicon Lab',
     content: (
       <p>
        Worked in a team to use machine learning methods via <b>Python</b> libraries like PyTorch to analyze neural data.
