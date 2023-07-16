@@ -72,7 +72,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a student at <strong className="text-stone-100">Stanford University</strong> studying math, music, and computer science. I have experience in neurocomputation
-        and AI/ML projects.
+        and AI/ML.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, I like playing the <strong className="text-stone-100">piano</strong>,{' '}
@@ -82,7 +82,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://drive.google.com/file/d/1X9_VRuh79TZC0KdnIuDuyjSkwmbxLoU7/view?usp=sharing',
+      href: 'https://drive.google.com/file/d/1d_YyfF6nhkFrW7qk3FOs58Rzg9OHaiRc/view?usp=sharing',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -269,7 +269,7 @@ export const education: TimelineItem[] = [
     content: (
       <>
         <p>
-          Double major in Math and Music (BAS) and coterm MS in Computer Science; <b>3.95 GPA</b>
+          Major in Math and Music (BAS) and coterm MS in Computer Science; <b>3.94 GPA</b>
         </p>
         <p>
           <b>Activities:</b> Piano, TreeHacks, Stanford University Mathematical Organization (SUMO),
@@ -288,23 +288,32 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'June 2023 - Present',
-    location: 'Research Associate',
-    title: 'Blue Marble Space Institute of Science (BMSIS)',
+    date: 'August 2023 - ',
+    location: 'Incoming Software Engineer Intern',
+    title: 'NASA',
     content: (
       <p>
-        Researcher at BMSIS YSP developing a tool to analyze deep sequencing data with <b>Python</b> and <b>Bash</b>.
+          Incoming Fall 2023 intern developing a machine learning tool.
       </p>
     ),
   },
   {
     date: 'May 2023 - Present',
     location: 'L’SPACE Project Manager and Researcher',
-    title: 'NASA',
     content: (
       <p>
       Project manager of a student team designing a mission to explore the dwarf planet Ceres for the NASA L’SPACE MCA.
-        Direct team research efforts while also studying computational techniques for space exploration.
+        Direct team of 14 while researching computational techniques for space exploration.
+      </p>
+    ),
+  },
+  {
+    date: 'June 2023 - Present',
+    location: 'Research Associate',
+    title: 'Blue Marble Space Institute of Science (BMSIS)',
+    content: (
+      <p>
+        Researcher at BMSIS YSP developing a tool to analyze deep sequencing data with <b>Python</b> and <b>Bash</b>.
       </p>
     ),
   },
