@@ -300,6 +300,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'May 2023 - Present',
     location: 'L’SPACE Project Manager and Researcher',
+    title: '',
     content: (
       <p>
       Project manager of a student team designing a mission to explore the dwarf planet Ceres for the NASA L’SPACE MCA.
