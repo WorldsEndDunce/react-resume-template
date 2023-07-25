@@ -293,7 +293,7 @@ export const experience: TimelineItem[] = [
     title: 'NASA',
     content: (
       <p>
-          Incoming Fall 2023 intern developing a machine learning tool.
+          Incoming Fall 2023 intern working on a machine learning project.
       </p>
     ),
   },
