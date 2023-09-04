@@ -345,7 +345,12 @@ export const testimonial: TestimonialSection = {
 //       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
 //     },
     {
-      name: 'Brian Lee (Stanford \'25)',
+      name: 'J-Anne Carlson (Chief Scientist of the same team in the NASA L\'SPACE MCA)',
+      text: 'Being a project manager is one of the hardest roles to fulfill but Allison did a significant amount to help keep the team together and we all finished off strong! Allison is meant for leadership roles and wherever she goes, I have no doubt she will succeed in whatever she does!',
+      image: 'https://media.licdn.com/dms/image/C5603AQFUad14uSBEbQ/profile-displayphoto-shrink_800_800/0/1643181027443?e=1699488000&v=beta&t=JgPf1d8k3J6w2qMOwDEoS2NfE56yAqTUabSOsHf7IjQ',
+    },
+    {
+      name: 'Brian Lee (Multi-project partner, Stanford \'25)',
       text: 'Allison is always a pleasure to work with. I enjoy their enthusiasm and sense of humor.',
       image: 'https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/rockcms/2022-10/221026-Emperor-Penguins-al-0511-7d537f.jpg',
     },
