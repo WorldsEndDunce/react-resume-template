@@ -347,7 +347,7 @@ export const testimonial: TestimonialSection = {
     {
       name: 'J-Anne Carlson (Chief Scientist of the same team in the NASA L\'SPACE MCA)',
       text: 'Being a project manager is one of the hardest roles to fulfill but Allison did a significant amount to help keep the team together and we all finished off strong! Allison is meant for leadership roles and wherever she goes, I have no doubt she will succeed in whatever she does!',
-      image: 'https://media.licdn.com/dms/image/C5603AQFUad14uSBEbQ/profile-displayphoto-shrink_800_800/0/1643181027443?e=1699488000&v=beta&t=JgPf1d8k3J6w2qMOwDEoS2NfE56yAqTUabSOsHf7IjQ',
+      image: 'https://i.imgur.com/mlFGRqc.jpg',
     },
     {
       name: 'Brian Lee (Multi-project partner, Stanford \'25)',
