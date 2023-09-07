@@ -272,7 +272,7 @@ export const education: TimelineItem[] = [
           Major in Math and Music (BAS) and coterm MS in Computer Science; <b>3.94 GPA</b>
         </p>
         <p>
-          <b>Activities:</b> Piano, TreeHacks, Stanford University Mathematical Organization (SUMO),
+          <b>Activities:</b> Stanford Piano Society, TreeHacks, Stanford University Mathematical Organization (SUMO),
           Stanford Summer Engineering Academy (SSEA), Association for Computing Machinery (ACM), CodePath,
           Stanford Taekwondo.
         </p>
@@ -288,23 +288,22 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'August 2023 - ',
-    location: 'Incoming Software Engineer Intern',
+    date: 'Aug 2023 - Present',
+    location: 'Software and Machine Learning Engineer Intern',
     title: 'NASA',
     content: (
-      <p>
-          Incoming Fall 2023 intern working on a machine learning project.
-      </p>
+      <p>- Currently developing a GPT-4-based application.</p>
+<p>- Implementing techniques such as Retrieval-Augmented Generation (RAG) and ReAct (reason + act) to improve generative AI performance.</p>
+<p>- Volunteer at outreach events, giving public demonstrations of the Graphics and Visualization (GVIS) lab technologies and explaining NASA's latest research projects, such as the development of quieter and more efficient supersonic flight.</p>
     ),
   },
   {
-    date: 'May 2023 - Present',
-    location: 'L’SPACE Project Manager and Researcher',
+    date: 'May 2023 - Aug 2023',
+    location: 'L’SPACE Project Manager',
     title: '',
     content: (
-      <p>
-      Project manager of a student team designing a mission to explore the dwarf planet Ceres for the NASA L’SPACE MCA.
-        Direct team of 14 while researching computational techniques for space exploration.
+      <p>- Project manager of a student team that designed a mission to explore the dwarf planet Ceres for L'SPACE MCA.</p>
+<p>- The team's research and prototyping efforts culminated in a 180-page Preliminary Design Review (PDR) and final presentation to a review board.
       </p>
     ),
   },
@@ -313,8 +312,8 @@ export const experience: TimelineItem[] = [
     location: 'Research Associate',
     title: 'Blue Marble Space Institute of Science (BMSIS)',
     content: (
-      <p>
-        Researcher at BMSIS YSP developing a tool to analyze deep sequencing data with <b>Python</b> and <b>Bash</b>.
+      <p>- Developed a program called EasyDIVER 2.0 that helps scientists analyze data consisting of millions of DNA/RNA sequences with <b>Python</b> and <b>Bash</b> at the BMSIS YSP. Presented a demo video at BlueSciCon.</p>
+     <p>- Will continue working on the program as a visiting scholar and writing a scientific paper.
       </p>
     ),
   },
