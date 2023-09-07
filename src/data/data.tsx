@@ -292,9 +292,9 @@ export const experience: TimelineItem[] = [
     location: 'Software and Machine Learning Engineer Intern',
     title: 'NASA',
     content: (
-      <p>- Currently developing a GPT-4-based application.</p>
-<p>- Implementing techniques such as Retrieval-Augmented Generation (RAG) and ReAct (reason + act) to improve generative AI performance.</p>
-<p>- Volunteer at outreach events, giving public demonstrations of the Graphics and Visualization (GVIS) lab technologies and explaining NASA's latest research projects, such as the development of quieter and more efficient supersonic flight.</p>
+      <p>Currently developing a GPT-4-based application. 
+        Implementing techniques such as Retrieval-Augmented Generation (RAG) and ReAct (reason + act) to improve generative AI performance.
+        Volunteer at outreach events, giving public demonstrations of the Graphics and Visualization (GVIS) lab technologies and explaining NASA's latest research projects, such as the development of quieter and more efficient supersonic flight.</p>
     ),
   },
   {
@@ -302,8 +302,8 @@ export const experience: TimelineItem[] = [
     location: 'L’SPACE Project Manager',
     title: '',
     content: (
-      <p>- Project manager of a student team that designed a mission to explore the dwarf planet Ceres for L'SPACE MCA.</p>
-<p>- The team's research and prototyping efforts culminated in a 180-page Preliminary Design Review (PDR) and final presentation to a review board.
+      <p>Project manager of a student team that designed a mission to explore the dwarf planet Ceres for L'SPACE MCA.
+The team's research and prototyping efforts culminated in a 180-page Preliminary Design Review (PDR) and final presentation to a review board.
       </p>
     ),
   },
@@ -312,8 +312,8 @@ export const experience: TimelineItem[] = [
     location: 'Research Associate',
     title: 'Blue Marble Space Institute of Science (BMSIS)',
     content: (
-      <p>- Developed a program called EasyDIVER 2.0 that helps scientists analyze data consisting of millions of DNA/RNA sequences with <b>Python</b> and <b>Bash</b> at the BMSIS YSP. Presented a demo video at BlueSciCon.</p>
-     <p>- Will continue working on the program as a visiting scholar and writing a scientific paper.
+      <p>Developed a program called EasyDIVER 2.0 that helps scientists analyze data consisting of millions of DNA/RNA sequences with <b>Python</b> and <b>Bash</b> at the BMSIS YSP. Presented a demo video at BlueSciCon.
+     Will continue working on the program as a visiting scholar and writing a scientific paper.
       </p>
     ),
   },
