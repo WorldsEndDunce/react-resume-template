@@ -76,7 +76,7 @@ export const heroData: Hero = {
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, I like playing the <strong className="text-stone-100">piano</strong>,{' '}
-         <strong className="text-stone-100">video gaming</strong>, and <strong className="text-stone-100">exercising</strong>.
+         <strong className="text-stone-100">video gaming</strong>, and <strong className="text-stone-100">biking</strong>.
       </p>
     </>
   ),
@@ -107,8 +107,8 @@ export const aboutData: About = {
 //     {label: 'Age', text: '29', Icon: CalendarIcon},
 //     {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
     {label: 'Study', text: 'Stanford University', Icon: AcademicCapIcon},
-        {label: 'Currently doing', text: 'NASA L\'SPACE, biocomputation research', Icon: BuildingOffice2Icon},
-    {label: 'Interests', text: 'Piano, Drinking Coffee, Martial Arts, Video Games, Anime', Icon: SparklesIcon},
+        {label: 'Currently doing', text: 'SWE/ML Internship at NASA', Icon: BuildingOffice2Icon},
+    {label: 'Interests', text: 'Piano, Tea and Coffee, Martial Arts, Video Games', Icon: SparklesIcon},
   ],
 };
 
@@ -292,8 +292,7 @@ export const experience: TimelineItem[] = [
     location: 'Software and Machine Learning Engineer Intern',
     title: 'NASA',
     content: (
-      <p>Currently developing a GPT-4-based application. 
-        Implementing techniques such as Retrieval-Augmented Generation (RAG) and ReAct (reason + act) to improve generative AI performance.
+      <p>Currently developing a GPT-4-based application and implementing techniques such as Retrieval-Augmented Generation (RAG) and ReAct (reason + act) to improve generative AI performance.
         Volunteer at outreach events, giving public demonstrations of the Graphics and Visualization (GVIS) lab technologies and explaining NASA's latest research projects, such as the development of quieter and more efficient supersonic flight.</p>
     ),
   },
