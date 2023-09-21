@@ -1,20 +1,18 @@
 // External libraries
-import { FC, memo } from 'react';
-
-// Third-party packages and utilities
-import classNames from 'classnames';
-
 // CSS Frameworks and Global Styles
 import 'animate.css'; // Import animate.css
 
+// Component-specific imports
+import {ChevronDownIcon} from '@heroicons/react/24/outline';
+// Third-party packages and utilities
+import classNames from 'classnames';
+import Image from 'next/image';
+import {FC, memo} from 'react';
+
 // Local Imports
-import { heroData, SectionId } from '../../data/data';
+import {heroData, SectionId} from '../../data/data';
 import Section from '../Layout/Section';
 import Socials from '../Socials';
-
-// Component-specific imports
-import { ChevronDownIcon } from '@heroicons/react/24/outline';
-import Image from 'next/image';
 
 
 const Hero: FC = memo(() => {

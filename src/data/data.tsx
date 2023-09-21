@@ -13,7 +13,9 @@ import SteamIcon from '../components/Icon/SteamIcon';
 // import heroImage from '../images/header-background.webp';
 import heroImage from '../images/cyberpunk.webp';
 import porfolioImage4 from '../images/portfolio/annies.png';
+import porfolioImage12 from '../images/portfolio/bidara-full.png';
 import porfolioImage9 from '../images/portfolio/cherry-blossoms.png';
+import porfolioImage13 from '../images/portfolio/easydiver-2.0.jpg';
 import porfolioImage6 from '../images/portfolio/gt.png';
 import porfolioImage2 from '../images/portfolio/hand-gesture.png';
 import porfolioImage1 from '../images/portfolio/kittychat.png';
@@ -23,8 +25,6 @@ import porfolioImage11 from '../images/portfolio/portfolio.png';
 import porfolioImage8 from '../images/portfolio/quozlett.png';
 import porfolioImage10 from '../images/portfolio/watts-up.png';
 import porfolioImage7 from '../images/portfolio/zoo.png';
-import porfolioImage12 from '../images/portfolio/bidara-full.png';
-import porfolioImage13 from '../images/portfolio/easydiver-2.0.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/the_city.png';
 import {
