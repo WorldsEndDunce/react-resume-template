@@ -23,6 +23,8 @@ import porfolioImage11 from '../images/portfolio/portfolio.png';
 import porfolioImage8 from '../images/portfolio/quozlett.png';
 import porfolioImage10 from '../images/portfolio/watts-up.png';
 import porfolioImage7 from '../images/portfolio/zoo.png';
+import porfolioImage12 from '../images/portfolio/bidara-full.png';
+import porfolioImage13 from '../images/portfolio/easydiver-2.0.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/the_city.png';
 import {
@@ -100,7 +102,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Hello! I'm Allison, a double major in math and music with a coterm masters in computer science at Stanford University. Some fields I’m interested in are neuroscience, biomedical engineering, and machine learning.
+  description: `Hello! I'm Allison, a double major in math and music with a coterm MS in computer science at Stanford University. Some fields I’m interested in are neuroscience, biomedical engineering, and machine learning.
  I like "learning for learning's sake". I’m also a FLI student originally from the Midwest, so I would say I’ve had a pretty unique college experience. `,
   aboutItems: [
     {label: 'Location', text: 'San Francisco Bay Area, CA', Icon: MapIcon},
@@ -214,11 +216,11 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://annies-kitchen.github.io/',
     image: porfolioImage4,
   },
-  {
-    title: 'Do Neural Networks Dream of an Efficient PNG Search Algorithm?',
-    description: 'Application of the Neyman-Scott point process model to identify memory-storing polychronous neuronal groups (PNGs).',
-    url: 'https://github.com/WorldsEndDunce/PP-Almost-Seq',
-    image: porfolioImage5,
+   {
+    title: 'BIDARA [WIP]',
+    description: 'A GPT-4 based application that I\'m currently developing for my internship at NASA Glenn.',
+    url: 'https://codepen.io/worldsenddunce/full/gOZXoEv',
+    image: porfolioImage12,
   },
   {
     title: 'Neural Ensemble for 3D Reconstruction from 2D Images',
@@ -233,6 +235,12 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage7,
   },
   {
+    title: 'EasyDIVER 2.0 [WIP]',
+    description: 'Currently a visiting scholar at the Blue Marble Space Institute of Science (BMSIS) developing this biocomputational tool for pre-processing and analyzing deep sequencing data.',
+    url: 'https://github.com/WorldsEndDunce/EasyDIVER-2.0',
+    image: porfolioImage13,
+  },
+  {
     title: 'Quozlett Lite',
     description: 'Stylishly animated flashcard app with multiple choice options.',
     url: 'https://github.com/WorldsEndDunce/Quozlett-Lite',
@@ -243,6 +251,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Short quiz to see if you can tell the difference between AI and human-made art.',
     url: 'https://dalle-or-dali.github.io/',
     image: porfolioImage9,
+  },
+  {
+    title: 'Do Neural Networks Dream of an Efficient PNG Search Algorithm?',
+    description: 'Application of the Neyman-Scott point process model to identify memory-storing polychronous neuronal groups (PNGs).',
+    url: 'https://github.com/WorldsEndDunce/PP-Almost-Seq',
+    image: porfolioImage5,
   },
   {
     title: 'This website',
@@ -292,8 +306,8 @@ export const experience: TimelineItem[] = [
     location: 'Software and Machine Learning Engineer Intern',
     title: 'NASA',
     content: (
-      <p>Currently developing a GPT-4-based application and implementing techniques such as Retrieval-Augmented Generation (RAG) and ReAct (reason + act) to improve generative AI performance.
-        Volunteer at outreach events, giving public demonstrations of the Graphics and Visualization (GVIS) lab technologies and explaining NASA's latest research projects, such as the development of quieter and more efficient supersonic flight.</p>
+      <p>Currently developing a GPT-4-based application and using frameworks such as Retrieval-Augmented Generation (RAG) with <b>Python</b> to improve generative AI performance. Developed a website with <b>HTML/CSS/JS</b> to demo the chatbot.
+        Volunteer at outreach events, giving public demonstrations of the Graphics and Visualization (GVIS) lab technologies and explaining NASA's latest research projects, such as the development of more efficient and quieter supersonic flight.</p>
     ),
   },
   {
@@ -370,7 +384,7 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'ateecup@stanford.edu',
+      text: 'ateecup [at] stanford [dot] edu',
       href: 'mailto:ateecup@stanford.edu',
     },
     {
