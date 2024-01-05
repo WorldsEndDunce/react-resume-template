@@ -73,7 +73,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a student at <strong className="text-stone-100">Stanford University</strong> studying math, music, and computer science. My primary experiences are AI/ML and bio-inspired design.
+        I'm a student at <strong className="text-stone-100">Stanford University</strong> studying math, music, and computer science. My primary experiences are in AI/ML and bio-inspired design.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, I like playing the <strong className="text-stone-100">piano</strong>,{' '}
@@ -304,7 +304,7 @@ export const experience: TimelineItem[] = [
     location: 'Software and Machine Learning Engineer Intern',
     title: 'NASA',
     content: (
-      <p>Developed a GPT-4-based application using Retrieval-Augmented Generation (RAG) and LLamaIndex with <b>Python</b> to improve generative AI performance. Developed websites with <b>HTML/CSS/JS</b> to demo the chatbot.
+      <p>Developed a GPT-4-based application using Retrieval-Augmented Generation (RAG) and LlamaIndex with <b>Python</b> to improve generative AI performance. Developed websites with <b>HTML/CSS/JS</b> to demo the chatbot.
         Volunteered at outreach events, giving public demonstrations of the Graphics and Visualization (GVIS) lab technologies and explaining NASA's latest research projects, such as the development of more efficient and quieter supersonic flight.</p>
     ),
   },
