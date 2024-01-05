@@ -73,8 +73,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a student at <strong className="text-stone-100">Stanford University</strong> studying math, music, and computer science. I have experience in neurocomputation
-        and AI/ML.
+        I'm a student at <strong className="text-stone-100">Stanford University</strong> studying math, music, and computer science. My primary experiences are AI/ML and bio-inspired design.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, I like playing the <strong className="text-stone-100">piano</strong>,{' '}
@@ -102,14 +101,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Hello! I'm Allison, a double major in math and music with a coterm MS in computer science at Stanford University. Some fields I’m interested in are neuroscience, biomedical engineering, and machine learning.
+  description: `Hello! I'm Allison, a junior double majoring in math and music with a coterm MS in computer science at Stanford University. Some fields I’m interested in are neuroscience, biomedical engineering, and machine learning.
  I like "learning for learning's sake". I’m also a FLI student originally from the Midwest, so I would say I’ve had a pretty unique college experience. `,
   aboutItems: [
     {label: 'Location', text: 'San Francisco Bay Area, CA', Icon: MapIcon},
 //     {label: 'Age', text: '29', Icon: CalendarIcon},
 //     {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
     {label: 'Study', text: 'Stanford University', Icon: AcademicCapIcon},
-        {label: 'Currently doing', text: 'SWE/ML Internship at NASA', Icon: BuildingOffice2Icon},
+        {label: 'Currently doing', text: 'Collaborating on the NASA PeTaL project, incoming SDE Intern at Amazon', Icon: BuildingOffice2Icon},
     {label: 'Interests', text: 'Piano, Tea and Coffee, Martial Arts, Video Games', Icon: SparklesIcon},
   ],
 };
@@ -217,9 +216,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage4,
   },
    {
-    title: 'BIDARA [WIP]',
-    description: 'A GPT-4 based application that I\'m currently developing for my internship at NASA Glenn.',
-    url: 'https://codepen.io/worldsenddunce/full/gOZXoEv',
+    title: 'BIDARA',
+    description: 'A GPT-4 based application that I collaborated on for my internship at NASA Glenn.',
+    url: 'https://codepen.io/worldsenddunce/full/abPGpzd',
     image: porfolioImage12,
   },
   {
@@ -235,9 +234,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage7,
   },
   {
-    title: 'EasyDIVER 2.0 [WIP]',
+    title: 'SimpleSAILR [WIP]',
     description: 'Currently a visiting scholar at the Blue Marble Space Institute of Science (BMSIS) developing this biocomputational tool for pre-processing and analyzing deep sequencing data.',
-    url: 'https://github.com/WorldsEndDunce/EasyDIVER-2.0',
+    url: 'https://github.com/WorldsEndDunce/SimpleSAILR',
     image: porfolioImage13,
   },
   {
@@ -283,12 +282,11 @@ export const education: TimelineItem[] = [
     content: (
       <>
         <p>
-          Major in Math and Music (BAS) and coterm MS in Computer Science; <b>3.94 GPA</b>
+          Major in Math and Music (BAS) and coterm MS in Computer Science; <b>3.92 GPA</b>
         </p>
         <p>
-          <b>Activities:</b> Stanford Piano Society, TreeHacks, Stanford University Mathematical Organization (SUMO),
-          Stanford Summer Engineering Academy (SSEA), Association for Computing Machinery (ACM), CodePath,
-          Stanford Taekwondo.
+          <b>Activities:</b> Stanford Summer Engineering Academy (SSEA), Stanford Piano Society, CS106A/B Course Helper, TreeHacks, 
+          Stanford University Mathematical Organization (SUMO), Association for Computing Machinery (ACM), CodePath, Stanford Taekwondo.
         </p>
       </>
     ),},
@@ -302,12 +300,12 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'Aug 2023 - Present',
+    date: 'Aug 2023 - Dec 2023',
     location: 'Software and Machine Learning Engineer Intern',
     title: 'NASA',
     content: (
-      <p>Currently developing a GPT-4-based application and using frameworks such as Retrieval-Augmented Generation (RAG) with <b>Python</b> to improve generative AI performance. Developed a website with <b>HTML/CSS/JS</b> to demo the chatbot.
-        Volunteer at outreach events, giving public demonstrations of the Graphics and Visualization (GVIS) lab technologies and explaining NASA's latest research projects, such as the development of more efficient and quieter supersonic flight.</p>
+      <p>Developed a GPT-4-based application using Retrieval-Augmented Generation (RAG) and LLamaIndex with <b>Python</b> to improve generative AI performance. Developed websites with <b>HTML/CSS/JS</b> to demo the chatbot.
+        Volunteered at outreach events, giving public demonstrations of the Graphics and Visualization (GVIS) lab technologies and explaining NASA's latest research projects, such as the development of more efficient and quieter supersonic flight.</p>
     ),
   },
   {
