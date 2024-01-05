@@ -108,7 +108,7 @@ export const aboutData: About = {
 //     {label: 'Age', text: '29', Icon: CalendarIcon},
 //     {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
     {label: 'Study', text: 'Stanford University', Icon: AcademicCapIcon},
-        {label: 'Currently doing', text: 'Collaborating on the NASA PeTaL project, incoming SDE Intern at Amazon', Icon: BuildingOffice2Icon},
+        {label: 'Currently doing', text: 'Collaborating on the NASA PeTaL project, Incoming SDE Intern at Amazon', Icon: BuildingOffice2Icon},
     {label: 'Interests', text: 'Piano, Tea and Coffee, Martial Arts, Video Games', Icon: SparklesIcon},
   ],
 };
